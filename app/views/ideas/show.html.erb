@@ -20,7 +20,9 @@
   <div>
     <strong><%= comment.user_name %></strong>
     <br />
-    <p><%= comment.body %><p>
+    <p><%= comment.body %></p>
+      <br />
+      <p>I rate this: <%= comment.rating %></p>
   </div>
 <% end %>
 <%= render 'comments/form' %>
